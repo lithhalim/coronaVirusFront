@@ -1,0 +1,32 @@
+@use  "../../../mainStyle/tsyle.scss";
+
+.header-container{
+    display: flex;justify-content: space-between; align-items: center;
+    background-color: rgb(7, 6, 59); margin: 0; position: fixed; left: 0; top: 0;
+    width: 100vw; padding: 10px 20px;z-index: 100000;
+    .selectButtonSection{
+        display: flex; align-items: center; 
+        .elementSelectSection{
+            padding:10px 15px; font-weight: bold;
+            font-size: 1em;color: white;
+        }
+        .elementSelectSection{
+            cursor: pointer;
+            &.active {
+                color: red; position: relative;
+                transition: all .5s;
+                &::after{
+                    content: "";
+                    position: absolute; left: 0; bottom: -10px; transition: all .5s;
+                    width: 100%; height:3px ; background-color: red;
+                }
+            }
+        }
+    }
+    .logoImage {
+        height: 50px; 
+        position: absolute; left: 50%; top: 5px; transform: translateX(-60%);
+    }
+
+
+}

@@ -1,0 +1,24 @@
+
+.containerSelectCountry{
+    p{
+        font-weight: bold; text-align: center; text-transform: capitalize;
+    }
+    .container-currency-section-have{
+        width: 250px; border: 1px solid rgb(110, 110, 110);
+        border-radius: 5px; height: 35px; 
+    
+    
+        img {
+            width: 40px;height: 35px; border-radius: 5px;
+        }
+        select {
+            border: none; width: 210px; position: absolute;font-weight: bold;
+            height: 35px; font-size: .9em; text-align: center; text-transform: capitalize;
+            text-transform: uppercase; text-align: center;
+            option {  
+                font-size: .9em; font-weight: bold; text-transform: uppercase;
+            }
+        }
+    }
+    
+}

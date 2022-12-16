@@ -1,0 +1,10 @@
+.containerSelectCountryDate{
+    display: flex; padding: 50px 50px; justify-content: center;
+    align-items: center;
+    button{
+        background-color: rgb(7, 6, 59); color: white;
+        width: 200px; height: 35px; font-weight: bold;
+        margin-top: 50px; cursor: pointer; 
+        border-radius: 5px;
+    }
+}

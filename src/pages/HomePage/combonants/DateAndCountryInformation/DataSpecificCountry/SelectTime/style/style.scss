@@ -1,0 +1,15 @@
+.containerdate{
+    display: flex;
+    list-style: none;
+    li{
+        width: 220px; margin-right: 50px;
+        p{
+            font-weight: bold; text-align: center;
+        }
+        input{
+            width: 220px; height: 35px;
+            color: black; font-weight: bold;
+            text-align: center;
+        }
+    }
+}

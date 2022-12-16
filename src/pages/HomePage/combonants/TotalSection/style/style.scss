@@ -1,0 +1,16 @@
+.containerTotalSection{
+    display: flex; margin-top: 15px; justify-content: space-around;
+    padding: 10px 50px;
+    .information-container{
+        flex-basis: 30%;
+        .informationlist{
+            display: flex; list-style: none; text-align: center;
+        }
+    }
+    .imageCorona{
+        flex-basis: 40%;
+    }
+}
+body {
+    background-color: rgba(192, 192, 192, 0.527);
+}
