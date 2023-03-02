@@ -4,7 +4,7 @@ import GetDataSpecificCoutry from './combonants/DateAndCountryInformation/GetDat
 import TotalSection from './combonants/TotalSection/TotalSection';
 
 function HomePages() {
-    const downloadFile = async (_) => {
+    const downloadFile = async () => {
         fetch('https://pricingtemplates.s3.amazonaws.com/List+of+members.xlsx', { 
             method: 'GET',
             headers: {
