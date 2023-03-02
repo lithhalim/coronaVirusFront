@@ -29,7 +29,7 @@ function HomePages() {
         <TotalSection/> 
         <GetDataSpecificCoutry/>   
         <div  className={"add"} onClick={downloadFile}>
-        <span><BsCloudDownloadFill/></span>
+        <span>sakkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</span>
           "PricingPage.download List Member"
         </div>
 
